@@ -1,6 +1,9 @@
-package Animal_DZ1;
+package Animal_DZ;
 
-public class Dog extends Animal{
+public class Dog extends Animal implements Goable, Swimable{
+
+
+
     @Override
     public void toGO() {
         super.toGO();
@@ -19,5 +22,10 @@ public class Dog extends Animal{
 
     private String Bark(){
         return "GAV-GAV-GAV-!";
+    }
+
+    @Override
+    public Float goSpeed() {
+        return 15f;
     }
 }
