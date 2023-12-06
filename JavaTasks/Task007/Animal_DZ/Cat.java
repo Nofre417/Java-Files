@@ -1,6 +1,6 @@
-package Animal_DZ1;
+package Animal_DZ;
 
-public class Cat extends Animal{
+public class Cat extends Animal implements Goable, Swimable{
     @Override
     public void toGO() {
         super.toGO();
@@ -14,5 +14,10 @@ public class Cat extends Animal{
     @Override
     public void swim() {
         super.swim();
+    }
+
+    @Override
+    public Float goSpeed() {
+        return 12f;
     }
 }
