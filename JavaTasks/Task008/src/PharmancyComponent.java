@@ -55,4 +55,5 @@ public class PharmancyComponent implements Comparable<PharmancyComponent> {
         }
         return 0;
     }
+
 }

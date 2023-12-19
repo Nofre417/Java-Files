@@ -93,4 +93,5 @@ public class Pharmacy implements Iterable<PharmancyComponent>, Comparable<Pharma
         else
             return 0;
     }
+
 }

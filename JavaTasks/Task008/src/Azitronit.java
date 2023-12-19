@@ -4,5 +4,6 @@ public class Azitronit extends PharmancyComponent {
         super(name, weight, power);
     }
 
+
 }
 

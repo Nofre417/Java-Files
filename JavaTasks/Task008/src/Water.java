@@ -4,4 +4,5 @@ public class Water extends PharmancyComponent{
         super(name, weight, power);
     }
 
+
 }
