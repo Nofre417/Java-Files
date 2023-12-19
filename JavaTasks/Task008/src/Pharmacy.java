@@ -82,8 +82,6 @@ public class Pharmacy implements Iterable<PharmancyComponent>, Comparable<Pharma
             }
         };
     }
-
-
     @Override
     public int compareTo(Pharmacy pharmacy) {
         if(this.components.size() > pharmacy.components.size())

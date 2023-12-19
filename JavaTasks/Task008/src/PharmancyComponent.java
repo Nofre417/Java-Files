@@ -45,7 +45,6 @@ public class PharmancyComponent implements Comparable<PharmancyComponent> {
                 ", power=" + power +
                 '}';
     }
-
     @Override
     public int compareTo(PharmancyComponent o) {
         if (this.power > o.power){
@@ -55,5 +54,4 @@ public class PharmancyComponent implements Comparable<PharmancyComponent> {
         }
         return 0;
     }
-
 }

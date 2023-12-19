@@ -14,8 +14,6 @@ public class IteratorComponent implements Iterator<PharmancyComponent> {
         components = pharmacy.getComponents();
         index = pharmacy.getIndex();
     }
-
-
     @Override
     public boolean hasNext() {
         return index < components.size();

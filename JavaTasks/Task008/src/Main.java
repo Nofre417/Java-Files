@@ -32,6 +32,5 @@ public class Main {
         // IS COMPARE ?
         System.out.println(pharmacy1.compareTo(pharmacy2));
         System.out.println(pharmacy2.compareTo(pharmacy4));
-
     }
 }
